@@ -1,5 +1,4 @@
-# Welcome to GitHub Desktop!
+Hi Jorrell
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+I am trying to use github, and I don't think I am doing well lol
+Feb 28
