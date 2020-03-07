@@ -31,7 +31,7 @@ public class Penny {
 	}
 	
 	/**
-	 * Method for fliping the coin and returning the value of the penny
+	 * Method for flipping the coin and returning the value of the penny
 	 * @return getValue, 0
 	 */
 	public int coinFlip() {

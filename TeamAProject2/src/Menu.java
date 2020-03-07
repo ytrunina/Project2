@@ -110,9 +110,9 @@ public class Menu {
 							default:
 								break;
 						}
-					} while(!player.getGameStatus());
 					
-					//System.out.println(getBalance());
+					} while(!player.getGameStatus() && !getSubMenuOption().equals("Q"));
+					
 				} while(!getSubMenuOption().equals("Q"));
 				
 				break;	

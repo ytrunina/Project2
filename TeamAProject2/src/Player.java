@@ -108,8 +108,6 @@ public class Player {
 			System.out.println("\n\nSorry, you've lost.");
 		}
 		
-		//double balance = (double)getBalance() / 100;
-		//System.out.println(balance);
 		System.out.printf("The current balance is: %.2f\n", (double)getBalance() / 100);
 					
 		
