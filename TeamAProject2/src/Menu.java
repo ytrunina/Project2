@@ -60,6 +60,15 @@ public class Menu {
 	}
 	
 	/**
+	 * The thankyou function display a final thank you to the user for using the program
+	 */
+	
+	public static void thankyou() {
+		System.out.println();
+		System.out.println("***Thank you for using this program! Goodbye.***");
+	}
+	
+	/**
 	 * Display method for Menu Option. Control for player and players actions
 	 */
 	
@@ -117,6 +126,9 @@ public class Menu {
 				
 				break;	
 			case "Q":
+				//Display Thank you to the user
+				thankyou();
+				System.exit(0);
 				break;
 			default:
 				System.out.println("Error: Please select one of the menu options.");
