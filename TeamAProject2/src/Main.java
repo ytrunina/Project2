@@ -27,16 +27,9 @@ public class Main {
 				"Jorrell Smith \n" + 
 				"           \nLast modified 03/06/2020\n\n\n" + 
 				"*********************************************************");
-	}
+	} //end of welcome
 	
-	/**
-	 * The thankyou function display a final thank you to the user for using the program
-	 */
 	
-	public static void thankyou() {
-		System.out.println();
-		System.out.println("***Thank you for using this program! Goodbye.***");
-	}
 	
 	/**
 	 * The main initializer of the program, function main
@@ -55,11 +48,9 @@ public class Main {
 		
 		
 		menu.getScanner().close();
-		
-		//Display Thank You to the user
-		thankyou();
+	
 		
 		
-	}
+	} //end of main method
 
 }	// End of Main
