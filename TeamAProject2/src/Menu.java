@@ -66,7 +66,7 @@ public class Menu {
 	public static void thankyou() {
 		System.out.println();
 		System.out.println("***Thank you for using this program! Goodbye.***");
-	}
+	} //end of thankyou method
 	
 	/**
 	 * Display method for Menu Option. Control for player and players actions
@@ -112,17 +112,17 @@ public class Menu {
 									if(userChoice.equals("N")) {
 										setSubMenuOption("Q");
 									}
-								}					
+								} //close if(player.getgamestatus())  				
 								break;
 							case "Q":
 								break;
 							default:
 								break;
-						}
+						} // close switch get sub menu option
 					
 					} while(!player.getGameStatus() && !getSubMenuOption().equals("Q"));
 					
-				} while(!getSubMenuOption().equals("Q"));
+				} while(!getSubMenuOption().equals("Q")); 
 				
 				break;	
 			case "Q":
@@ -133,9 +133,9 @@ public class Menu {
 			default:
 				System.out.println("Error: Please select one of the menu options.");
 				break;
-		};
+		}; // End of get menu options switch
 		
-	}
+	} // End of options method
 	
 	/**
 	 * Display For Sub Menu Options
@@ -157,6 +157,6 @@ public class Menu {
 		setSubMenuOption(userChoice.toUpperCase());
 		System.out.println("\n\n");
 		
-	}
+	} // End of sub menu options
 	
 }	// End of Menu
